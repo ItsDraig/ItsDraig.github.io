@@ -6,8 +6,8 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #c4ccce; /* ChatGPT sidebar color */
-    color: white;
+    background-color: #c4ccce; 
+    color: #202123;
     text-align: center;
 }
 
@@ -26,7 +26,7 @@ img {
 }
 
 footer {
-    background-color: #a4adb2; /* ChatGPT main background color */
+    background-color: #a4adb2; 
     padding: 10px 0;
     position: fixed;
     bottom: 0;
