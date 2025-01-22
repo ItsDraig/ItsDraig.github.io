@@ -10,7 +10,7 @@
   src: url("/fonts/EternalAscent_Font1.ttf") format('truetype');
   font-weight: normal;
   font-style: normal;
-  descent-override: 80%;
+  descent-override: 150%;
 }
 
 body {
