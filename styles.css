@@ -5,8 +5,15 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: 'EternalAscent';
+  src: url("../ItsDraig.github.io/EternalAscent_Font1.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
-  font-family: 'Poppins', Arial, sans-serif;
+  font-family: 'EternalAscent', Arial, sans-serif;
   color: #f9f0db;
   background-color: #090c0c;
   text-align: center;
