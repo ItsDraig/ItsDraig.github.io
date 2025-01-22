@@ -7,7 +7,7 @@
 
 @font-face {
   font-family: 'EternalAscent';
-  src: url("/EternalAscent_Font1.ttf") format('truetype');
+  src: url("../../EternalAscent_Font1.ttf") format('truetype');
   font-weight: normal;
   font-style: normal;
 }
