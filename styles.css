@@ -107,6 +107,7 @@ footer {
   display: flex;
   justify-content: space-between; /* Distribute privacy and social links evenly */
   align-items: center; /* Align items vertically */
+  gap: 20px;
 }
 
 .social-media {
