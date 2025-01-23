@@ -105,6 +105,8 @@ footer {
   bottom: 0;
   width: 100%;
   display: flex;
+  justify-content: space-between; /* Distribute privacy and social links evenly */
+  align-items: center; /* Align items vertically */
 }
 
 .social-media {
@@ -138,7 +140,8 @@ img {
   height: auto;
 }
 
-.privacy {
+.privacy a {
   margin-right: 20px;
-  color: #f9f0db;
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Inherit the text color of the parent */
 }
