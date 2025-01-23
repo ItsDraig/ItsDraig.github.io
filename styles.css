@@ -20,6 +20,10 @@ body {
   text-align: center;
 }
 
+.logo-image {
+  clip-path: inset(0 0 3px 0);
+}
+
 /* Navbar Styles */
 .navbar {
   display: flex;
