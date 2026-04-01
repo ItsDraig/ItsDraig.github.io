@@ -189,3 +189,43 @@ img {
 .about-section em {
   color: #c9b27a;
 }
+
+/* FAQ Section */
+.faq-section {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.faq-section h2 {
+  margin-bottom: 30px;
+  font-size: 26px;
+}
+
+/* Individual FAQ cards */
+.faq-item {
+  background: rgba(20, 22, 22, 0.85);
+  padding: 20px 25px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  text-align: left;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.faq-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+}
+
+.faq-item h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #f9f0db;
+}
+
+.faq-item p {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #d8d0bd;
+}
