@@ -229,3 +229,21 @@ img {
   line-height: 1.6;
   color: #d8d0bd;
 }
+
+/* Answer container (collapsed by default) */
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+/* Open state */
+.faq-item.active .faq-answer {
+  max-height: 200px; /* enough for your content */
+  margin-top: 10px;
+}
+
+/* Improve spacing inside */
+.faq-answer p {
+  margin-top: 10px;
+}
