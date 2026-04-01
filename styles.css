@@ -210,7 +210,38 @@ select {
 
 /* Individual FAQ cards */
 .faq-question {
+  width: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  box-shadow: none;
+
+  color: #f9f0db;
   font-family: 'EternalAscent', sans-serif;
+  font-size: 18px;
+
+  text-align: left;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 5px 0;
+  margin: 0;
+
+  /* Remove mobile tap highlight */
+  -webkit-tap-highlight-color: transparent;
+}
+
+.faq-question:focus,
+.faq-question:active {
+  outline: none;
+  background: transparent;
+}
+
+.faq-question:hover {
+  color: #ffffff;
 }
 
 .faq-item {
