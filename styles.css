@@ -202,6 +202,10 @@ img {
 }
 
 /* Individual FAQ cards */
+.faq-question {
+  font-family: 'EternalAscent', sans-serif;
+}
+
 .faq-item {
   background: rgba(20, 22, 22, 0.85);
   padding: 20px 25px;
@@ -235,6 +239,10 @@ img {
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.3s ease;
+}
+
+.faq-item.active {
+  border-color: rgba(255, 255, 255, 0.15);
 }
 
 /* Open state */
