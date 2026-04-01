@@ -201,6 +201,13 @@ img {
   font-size: 26px;
 }
 
+button,
+input,
+textarea,
+select {
+  font-family: inherit;
+}
+
 /* Individual FAQ cards */
 .faq-question {
   font-family: 'EternalAscent', sans-serif;
