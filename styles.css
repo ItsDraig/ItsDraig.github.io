@@ -147,3 +147,43 @@ img {
   text-decoration: none; /* Remove underline */
   color: inherit; /* Inherit the text color of the parent */
 }
+
+/* About Page Sections */
+.about-section {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 25px 30px;
+  background: rgba(20, 22, 22, 0.85);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  text-align: left;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.about-section:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.6);
+}
+
+.about-section h2 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  color: #f9f0db;
+  border-left: 4px solid #f9f0db;
+  padding-left: 10px;
+}
+
+.about-section p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #d8d0bd;
+}
+
+.about-section strong {
+  color: #ffffff;
+}
+
+.about-section em {
+  color: #c9b27a;
+}
